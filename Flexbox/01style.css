@@ -1,0 +1,41 @@
+.outer{
+    height: 400px;
+    width: 400px;
+    border: 2px solid cyan;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    align-items: center;
+}
+
+#inner{
+    background-color: grey;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    font-size: 50px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+}
+
+
+.parent{
+    height: 50px;
+    width: 900px;
+    background-color: rgb(216, 145, 157);
+    display: flex;
+    margin: 100px;
+    border: 3px solid lightblue;
+    border-radius: 5px;
+    font-size: 24px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#child{
+    height: 50px;
+    width: 80px;
+    border-radius: 3px;
+}
