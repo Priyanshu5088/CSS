@@ -1,0 +1,9 @@
+img{
+    height: 200px;
+    width: 200px;
+    float: right;
+}
+
+footer{
+    clear: right;
+}
